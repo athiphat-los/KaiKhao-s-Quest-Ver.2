@@ -1,0 +1,32 @@
+# --- Unity ---
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild*/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+[Mm]emoryCaptures/
+Assets/**/*.meta
+# (meta จะถูกสร้างเอง ให้ Git ติดตามไฟล์ .meta ใน Assets อัตโนมัติเมื่อ add โฟลเดอร์)
+
+# --- IDE / Project files ---
+*.csproj
+*.sln
+*.user
+*.userprefs
+*.pidb
+*.unityproj
+*.tmp
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+.vscode/
+.idea/
+*.iml
+
+# --- OS junk ---
+.DS_Store
+Thumbs.db
